@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var</title>
+</head>
+<body>
+    <script>
+        // var i = 10;
+        // console.log(i);
+// for(var i =0; i<10;i++){
+//     console.log(i);
+// }
+// console.log(i);
+
+      // block scope vs function scope
+
+    //   function tes() {
+    //     for (var i = 0; i < 10; i++) {
+    //         console.log(i);
+            
+    //     }
+    //   }
+    //   tes();
+
+      //IIFE atau SIAP
+//Immediately, Invoked, Function, Expression
+// Self, Invoking, Anonymous-> fungsi tidak bernama, Function
+//contoh fuction expression
+// var x = function () {
+    
+// }
+
+(function () {
+    for(var i = 0; i<10; i++){
+        console.log(i);
+    }
+}());
+
+    </script>
+</body>
+</html>

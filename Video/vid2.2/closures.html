@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures</title>
+</head>
+<body>
+    <script>
+        // closure merupakan kombinasi antara function dan lingkungan leksikal(lexical scope) didalam function tersebut
+        // function init() {
+        //     let nama ='salsabila'; //local variable
+        //     function tampilNama() { //inner function (closure)
+        //         console.log(nama);//akses ke parent variable
+        //     }
+        //     tampilNama();
+        // }
+        // init();
+
+        // // kenapa menggunakan closure ==> untuk membuat function factories/untuk membuat private method
+
+        // function ucapkanSalam(waktu) {
+        //     return function (nama) {
+        //         console.log(`hallo ${nama}, Selamat ${waktu}, semoga harimu menyenangkan`);
+        //     }
+        // }
+
+        // let selamatPagi = ucapkanSalam('Pagi');
+        // let selamatSiang = ucapkanSalam('Siang');
+        // let selamatMalam = ucapkanSalam('Malam');
+
+        // console.dir(selamatMalam('Salsabila'));
+        let add = function(){
+        let counter = 0;
+        return function () {
+            return ++ counter;
+            
+        }
+     }
+        let a = add();
+        console.log(a());
+        console.log(a());
+        console.log(a());
+
+    </script>
+</body>
+</html>
