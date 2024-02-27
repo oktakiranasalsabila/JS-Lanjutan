@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Closures</title>
 </head>
+
 <body>
     <script>
         // closure merupakan kombinasi antara function dan lingkungan leksikal(lexical scope) didalam function tersebut
@@ -30,13 +32,13 @@
         // let selamatMalam = ucapkanSalam('Malam');
 
         // console.dir(selamatMalam('Salsabila'));
-        let add = function(){
-        let counter = 0;
-        return function () {
-            return ++ counter;
-            
+        let add = function () {
+            let counter = 0;
+            return function () {
+                return ++counter;
+
+            }
         }
-     }
         let a = add();
         console.log(a());
         console.log(a());
@@ -44,4 +46,5 @@
 
     </script>
 </body>
+
 </html>

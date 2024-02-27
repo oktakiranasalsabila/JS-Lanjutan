@@ -68,10 +68,10 @@ function satu() {
 
 function dua() {
     console.log(nama);
-    
+
 }
 console.log(nama);
-var nama ='bila';
+var nama = 'bila';
 satu();
 dua('kirana');
 console.log(nama);

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arrow Function</title>
 </head>
+
 <body>
     <script>
         //arrow function adalah bentuk lain yang lebih ringkas dari expression
@@ -16,39 +18,40 @@
         // console.log(tampilNama('salsabila'));
 
         //arrow function
-//implisit return
-    //     const tampilNama = nama =>  `hallo, ${nama}`;
-    // 
-    // console.log('salsabila');
+        //implisit return
+        //     const tampilNama = nama =>  `hallo, ${nama}`;
+        // 
+        // console.log('salsabila');
 
-//    const tampilNama=(nama,waktu) =>{
-//     return `selamat ${waktu},${nama}`;
-//    }
-//    console.log(tampilNama('salsa','pagi'));
+        //    const tampilNama=(nama,waktu) =>{
+        //     return `selamat ${waktu},${nama}`;
+        //    }
+        //    console.log(tampilNama('salsa','pagi'));
 
-// const tampilNama= ()=> `hello world`;
-// console.log(tampilNama());
+        // const tampilNama= ()=> `hello world`;
+        // console.log(tampilNama());
 
-//function map
-// let mahasiswa = ['salsabila','okta', 'kirana'];
-// let jumlahHuruf= mahasiswa.map(function(nama){
-// return nama.length;
-// });
-// console.log(jumlahHuruf);
+        //function map
+        // let mahasiswa = ['salsabila','okta', 'kirana'];
+        // let jumlahHuruf= mahasiswa.map(function(nama){
+        // return nama.length;
+        // });
+        // console.log(jumlahHuruf);
 
-// arrow function dalam bentuk array
-// let mahasiswa = ['salsabila','okta', 'kirana'];
+        // arrow function dalam bentuk array
+        // let mahasiswa = ['salsabila','okta', 'kirana'];
 
-// let jumlahHuruf = mahasiswa.map(nama => nama.length);
-// console.log(jumlahHuruf);
+        // let jumlahHuruf = mahasiswa.map(nama => nama.length);
+        // console.log(jumlahHuruf);
 
-//menggunakan object
-let mahasiswa = ['salsabila','okta', 'kirana'];
-let jumlahHuruf=  mahasiswa.map(nama=>({ nama: nama,jmlHuruf: nama.length}));
-console.table(jumlahHuruf);
+        //menggunakan object
+        let mahasiswa = ['salsabila', 'okta', 'kirana'];
+        let jumlahHuruf = mahasiswa.map(nama => ({ nama: nama, jmlHuruf: nama.length }));
+        console.table(jumlahHuruf);
 
 
     </script>
-    
+
 </body>
+
 </html>

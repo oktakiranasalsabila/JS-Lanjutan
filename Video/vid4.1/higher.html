@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Order Function</title>
+</head>
+
+<body>
+    <script>
+        //higher order function adalah function yang beroperasi pada function yang lain.baik itu di gunakan dalam argument, maupun sebagai return value
+
+        // function kerjakanTugas//-> higher order function
+        // (matakuliah, selesai) {// selesai sebagai callback
+        //     console.log(`mulai mengerjakan tugas ${matakuliah}...`);
+        //     selesai();
+        // }
+        // function selesai() {
+        //     alert('selesai mengerjakan tugas!');
+        // }
+        // kerjakanTugas('pemrograman web',selesai)
+
+        //alasan memilih HOF salah satunya adalah abstraksi agar membuat code kita agar lebih sederhana atau simple.semakin besar sebuah program, semakin tinggi kompleksitasnya, semakin membingungkan programernya
+
+        let total = 0, count = 1;
+        while (count <= 10) {
+            total += count;
+            count += 1;
+        }
+        console.log(total);
+    </script>
+</body>
+
+</html>
