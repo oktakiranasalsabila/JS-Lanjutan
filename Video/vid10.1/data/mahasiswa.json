@@ -1,0 +1,26 @@
+ [
+    {
+        "nama": "salsabila",
+        "nrp": "00384636",
+        "prodi": "manajemen informatika",
+        "email": "salsa@gmail.com",
+        "idWali": "1"
+
+    },
+    {
+        "nama": "caca",
+        "nrp": "00384636",
+        "prodi": "manajemen informatika",
+        "email": "caca@gmail.com",
+        "idWali": "2"
+
+    },
+    {
+        "nama": "canu",
+        "nrp": "00384636",
+        "prodi": "manajemen informatika",
+        "email": "canu@gmail.com",
+        "idWali": "3"
+
+    }
+]
