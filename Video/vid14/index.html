@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Await</title>
+</head>
+<body>
+    <script>
+        function cobaPromise(){
+            return new Promise(resolve=>{
+                setTimeout(()=>{
+                    resolve('selesai')
+                },2000);
+            });
+        }
+
+       async function cobaAsync() {
+            const coba= await cobaPromise();
+            console.log(coba);
+        }
+        cobaAsync();
+    </script>
+</body>
+</html>
